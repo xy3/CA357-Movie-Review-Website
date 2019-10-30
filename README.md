@@ -1,4 +1,4 @@
-# Modern Website Boilerplate
+# CA357 Movie review website
 An up to date boilerplate to suit the future of web design.
 
 
