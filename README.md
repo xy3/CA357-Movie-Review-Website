@@ -14,20 +14,5 @@ An up to date boilerplate to suit the future of web design.
 ## Requirements:
 
 - Composer
-- A license to kill
 
-## To install:
-
-Clone the repository
-```bash
-git clone https://github.com/xy3/modern-website.git
-```
-
-cd into it and update with composer
-```bash
-cd Modern-Website-Boilerplate
-composer update
-```
-
-You're done.
 
