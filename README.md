@@ -23,3 +23,10 @@ Clone this repo into your web directory (should be public_html)
 ```bash
 git clone https://github.com/xy3/CA357-Movie-Review-Website.git
 ```
+
+Then visit it in your browser.
+Links are:
+- /
+- /user
+- /review
+- /movie/[id]
