@@ -16,3 +16,10 @@ Pages are in src/views
 - **movie.php**: movie template - renders movie data & reviews
 
 
+## Developing
+
+Clone this repo into your web directory (should be public_html)
+
+```bash
+git clone https://github.com/xy3/CA357-Movie-Review-Website.git
+```
