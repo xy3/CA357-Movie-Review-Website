@@ -11,13 +11,24 @@ if(ltrim($base, '/')){
 }
 
 // Dispatch as always
-$klein = new \Klein\Klein();
+$router = new \Klein\Klein();
 
 
-$klein->respond('GET', '/', function () {
+$router->respond('GET', '/', function () {
 	show('home.php');
 });
 
+$router->respond('GET', '/user', function () {
+	show('user.php');
+});
 
-$klein->dispatch();
+$router->respond('GET', '/movie/[i:id]', function () {
+	show('movie.php');
+});
+
+$router->respond('GET', '/review', function () {
+	show('review.php');
+});
+
+$router->dispatch();
 
