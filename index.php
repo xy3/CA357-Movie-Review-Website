@@ -30,5 +30,10 @@ $router->respond('GET', '/review', function () {
 	show('review.php');
 });
 
+$router->respond('GET', '/list', function () {
+	show('list.php');
+});
+
+
 $router->dispatch();
 

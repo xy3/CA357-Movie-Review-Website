@@ -1,5 +1,6 @@
 # CA357 Movie review website
 
+***Don't worry about the PHP and SCSS, I'll handle that. Although you should definitely look up SASS (aka SCSS).***
 
 ## Structure
 
@@ -10,11 +11,13 @@ Pages are in src/views
 
 ## Views
 
-- **home.php**: homepage - displays links & newest reviews
-- **user.php**: user account - display user customization page
-- **review.php**: write review page - show review form
-- **movie.php**: movie template - renders movie data & reviews
+*These are found in the `src/views` directory
 
+- **home.php**: Homepage - Links & newest reviews
+- **user.php**: User account - User customization page
+- **review.php**: Review page - Review submission form
+- **movie.php**: Movie template - Display information about a single movie
+- **list.php**: List view - List of movies on the site
 
 ## Developing
 
@@ -30,3 +33,4 @@ Links are:
 - /user
 - /review
 - /movie/[id]
+- /list
