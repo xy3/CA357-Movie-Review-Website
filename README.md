@@ -2,6 +2,8 @@
 
 ***Don't worry about the PHP and SCSS, I'll handle that. Although you should definitely look up SASS (aka SCSS).***
 
+
+
 ## Structure
 
 Everything goes into the **src** directory.
@@ -9,15 +11,26 @@ Everything goes into the **src** directory.
 Pages are in src/views
 
 
+
+
 ## Views
 
-*These are found in the `src/views` directory
+Views are found in the `src/views` directory
 
+**Shane**
 - **home.php**: Homepage - Links & newest reviews
-- **user.php**: User account - User customization page
-- **review.php**: Review page - Review submission form
+
+**Jack**
 - **movie.php**: Movie template - Display information about a single movie
+
+**Andrea**
 - **list.php**: List view - List of movies on the site
+
+**Muhammad**
+- **user.php**: User account - Basic user settings page
+- **review.php**: Review page - Review submission form page
+
+
 
 ## Developing
 
