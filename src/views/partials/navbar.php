@@ -6,16 +6,19 @@
 	<div class="collapse navbar-collapse" id="navbarNav">
 		<ul class="navbar-nav">
 			<li class="nav-item active">
-				<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Movies</a>
+				<a class="nav-link" href="/list">Movies</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">User</a>
+				<a class="nav-link" href="/user">User</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Write a review</a>
+				<a class="nav-link" href="/review">Write a review</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/example">Example</a>
 			</li>
 		</ul>
 	</div>

@@ -10,5 +10,5 @@ const PARTIALS = 'src/views/partials/';
 function show($page)
 {
 	$nav = PARTIALS . 'navbar.php';
-	require_once VIEWS . $page;
+	require_once VIEWS . $page . '.php';
 }
